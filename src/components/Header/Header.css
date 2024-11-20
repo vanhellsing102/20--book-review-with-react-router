@@ -1,0 +1,11 @@
+.active{
+    color: #23BE0A;
+    border: 1px solid #23BE0A;
+}
+.menu :where(li:not(.menu-title) > *:not(ul, details, .menu-title, .btn)){
+    border-radius: 10px;
+}
+.menu :where(li:not(.menu-title) > *:not(ul, details, .menu-title, .btn)){ 
+    color: black;
+    background-color: white;
+}
